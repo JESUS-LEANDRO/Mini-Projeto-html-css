@@ -1,0 +1,31 @@
+body{
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    border-bottom: solid 3px white;
+    font-family:  Helvetica, sans-serif;
+}
+ul li{
+   display: inline;
+   margin: 10px;
+}
+li a{
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+}
+img{
+    width: 50%;
+    height: 70%;
+    background-color: rgb(153, 152, 152);
+    border-radius: 5px;
+}
+footer{
+    border-top: solid 3px white;
+    margin-top: 10px;
+}
